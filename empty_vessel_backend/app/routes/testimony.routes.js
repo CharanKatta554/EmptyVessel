@@ -7,6 +7,5 @@ module.exports = app => {
 
   router.get("/", testimonials.findAll);
 
-  
   app.use("/api/testimonials", router);
 };

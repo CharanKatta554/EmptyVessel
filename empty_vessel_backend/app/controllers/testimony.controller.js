@@ -1,6 +1,5 @@
 const db = require("../models");
 const Testimony = db.tutorials;
-//const Op = db.Sequelize.Op;
 
 exports.create = (req, res) => {
   if (!req.body.content) {
